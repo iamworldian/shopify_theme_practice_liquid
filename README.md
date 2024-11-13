@@ -1,40 +1,37 @@
-# :wave: Say hi to Elizabeth :wave:
+# Shopify Liquid Theme Practice
 
-[![Generic badge](https://img.shields.io/badge/course%20available%3F-yes-green.svg)](https://shields.io/)
+This repository is for practicing and learning Shopify theme development using Liquid, Shopify's templating language.
 
-This project is created and intended to be used for the [Shopify Theme Development – Online Store 2.0 + TailwindCSS course](https://weeklyhow.com/courses/)
+## Project Overview
 
+In this project, I am focusing on developing and customizing a Shopify theme using Liquid. The goal is to get hands-on experience with Shopify's theme structure, Liquid code, and the Shopify platform.
 
-[Get the course!](https://weeklyhow.com/) | [Lessons covered](#lessons-covered) |
-[How to use](#how-to-use) | [Not a student?](#not-a-student)
+## Technologies Used
 
-## Lessons covered
+- **Liquid**: Shopify's templating language used for rendering dynamic content.
+- **HTML/CSS**: For building and styling the theme layout.
+- **JavaScript**: For adding interactive features.
+- **Shopify CLI**: For easier theme development, previewing, and deployment.
 
-Status | Lectures
------------- | -------------
-:heavy_check_mark: | Installing Development Tools
-:heavy_check_mark: | Navigational Bar
-:heavy_check_mark: | 404 Page
-:heavy_check_mark: | Article Page
-:heavy_check_mark: | Blog Page
-:heavy_check_mark: | Cart Page
-:heavy_check_mark: | Product Collection Page
-:heavy_check_mark: | Collections Page
-:heavy_check_mark: | Homepage (Index)
-:heavy_check_mark: | Pages (About & Contact)
-:heavy_check_mark: | Advanced Product Page
-:heavy_check_mark: | Search Page
-:hourglass: | More lessons coming
+## Goals
 
-## How to use
+- Understand and implement Shopify Liquid objects, tags, and filters.
+- Learn to customize Shopify themes to match specific design requirements.
+- Practice creating dynamic, data-driven templates for an engaging user experience.
 
-To use this repository for making Shopify themes, use the following command of Shopify CLI.
-```sh
-shopify theme init [ NAME OF YOUR THEME ] --clone-url https://github.com/polidario/Elizabeth_Clean
-```
+## Key Features
 
-If you don't have Shopify CLI installed to your computer, navigate to the [installation page of Shopify CLI](https://shopify.dev/themes/tools/cli/installation).
+- **Custom Templates**: Developing custom templates for different Shopify page types (e.g., homepage, product pages, collection pages).
+- **Dynamic Data Display**: Leveraging Shopify's Liquid objects to display product data, collections, and other dynamic content.
+- **Sectioned Theme Structure**: Building reusable and customizable theme sections.
+- **Responsive Design**: Ensuring the theme is mobile-friendly and responsive.
 
-## Not a student
+## Getting Started
 
-If you're not a student, you can still use this repository to start a new Shopify theme project. However, any issues that you will encounter throughout your development will not be supported as the instructor will only answer questions through the course's QnA page.
+To try out the theme locally:
+
+1. Install [Shopify CLI](https://shopify.dev/docs/cli) if you haven't already.
+2. Clone this repository:
+   ```bash
+   git clone https://github.com/iamworldian/shopify_theme_practice_liquid.git
+   ```
